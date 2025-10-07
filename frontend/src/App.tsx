@@ -11,6 +11,7 @@ import { ownerList } from "./owners/ownerList";
 import WarachaLogin from "./Login";
 import { assetList } from "./assets/assetList.tsx";
 import { assetCreate } from "./assets/assetCreate.tsx";
+import { assetEdit } from "./assets/assetEdit.tsx";
 
 export const App = () => (
   <Admin
@@ -21,7 +22,8 @@ export const App = () => (
     >
       <Resource name="assets" 
         list={assetList}
-        create={assetCreate} />
+        create={assetCreate}
+        edit={assetEdit} />
       <Resource name="asset-types" />
       <Resource name="owners" 
         list={ownerList}

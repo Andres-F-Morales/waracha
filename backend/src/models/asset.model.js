@@ -19,7 +19,9 @@ class Asset {
             a.created_at,
             a.updated_at,
             t.name AS type_name,
+            a.type_id,
             o.first_name || ' ' || o.last_name AS owner_name,
+            a.owner_id,
             o.email AS owner_email,
             a.serial
           FROM assets a
