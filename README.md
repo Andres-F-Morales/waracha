@@ -48,9 +48,15 @@ El proyecto incluye un archivo docker-compose.yml que facilita la configuración
 
 Esto levantará tanto db como frontend y backend en contenedores Docker.
 
-## Tecnologías
+## Documentación
 
-* DB: PostgreSQL
-* Backend: Nodejs + Express
-* Frontend: React Admin
+Se puede acceder a la documentación de la API ingresando a:
+
+https://documenter.getpostman.com/view/13375390/2sB3QJPWD5
+
+## Tecnologías empleadas
+
+* DB: PostgreSQL v15
+* Backend: Node.js v22 + Express v4.19
+* Frontend: React Admin v5
 
